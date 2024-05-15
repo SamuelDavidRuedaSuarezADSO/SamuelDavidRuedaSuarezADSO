@@ -10,7 +10,7 @@
   --bgd--color--gray: #3f3f3f;
   --bgd--color--hover: #16195f;
   --bgd--color--hover2: #292d94;
-  --color--text--yellow: #fc8f00;
+  --color--text--yellow: #FFD43B;
   --color--text--black: #000;
   --color--text--blue: #070edf;
 }
@@ -40,6 +40,10 @@ li{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header__title{
+  font-size: 30px;
+  color: var(--color--text--yellow);
 }
 .header__botones{
   width: 120px;
