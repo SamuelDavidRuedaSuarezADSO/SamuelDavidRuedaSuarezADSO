@@ -13,3 +13,5 @@ const x = (array) => {
 let array = [2, 1, 5, 3, 4, 2, 3];
 respuesta = array.map(x);
 console.log(respuesta);
+
+//crea una nueba matriz con los que cumplen la condicion del array original

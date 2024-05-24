@@ -5,7 +5,7 @@ argumento
 • devuelva true si todas las llamadas al callback devolvieron true
 */
 
-let w = [2, 4, 7, 8, 10];
+let w = [2, 4, 6, 8, 10];
 
 
 console.log(
@@ -13,3 +13,5 @@ console.log(
     return x % 2 == 0; // verificacion si la condicion se cumple si devuelte (true) si no (false).
   })
 )
+
+// todos los elementos de el array tiene que cumplir con la condicion de lo contrario devuelce false

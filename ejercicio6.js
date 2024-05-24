@@ -12,3 +12,5 @@ console.log(
     return x % 2 == 0;
   })
 )
+
+// busca en el array por lo menos a uno de los elemntos de la condicion, si lo halla devuelve true

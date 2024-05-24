@@ -10,7 +10,9 @@ devuelva true
 let t = [1, 2, 3, 4];
 
 let res = t.findIndex((x) => {
-  return x == "4";
+  return x == "3";
 })
 
 console.log(res)
+// si son dos iguales devuele tru si es string con un numero adentro en este caso, pero si son tre son.
+// devuelve la pocion de atrivuto que cumple la condicion si no hay ninguno devuelve -1

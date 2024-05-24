@@ -10,6 +10,8 @@ let r = [10, 12, 15, 165, 8];
 
 console.log(
   r.find((x) => {
-    return x > 10;
+    return x >= 8;
   })
 )
+
+// busca en el array en ORDEN un elemento que cumpla la condicion si noi hya ninguno imprime undefuine y si si devuelve el valor que cumple con la condicion
