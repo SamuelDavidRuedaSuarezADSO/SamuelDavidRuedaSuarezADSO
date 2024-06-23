@@ -10,12 +10,20 @@ todos los elementos restantes a partir de dicho elemento inclusive)
 
 const _ = require('underscore-contrib');
 
+// Importa la biblioteca 'underscore-contrib' utilizando 'require'. Esta biblioteca proporciona funciones adicionales para trabajar con arreglos en JavaScript.
+
+// Creamos un arreglo 'g' con varios números, incluidos pares e impares.
 let g = [2, 4, 34, 12, -1];
 
+// Creamos una función de callback 'callback' que verifica si un número es par.
 let callback = x => x % 2 == 0;
 
-let resp = _.dropWhile(g, callback); // Fuciona siendo que eliminara y crea una matriz con los elementos que marque true hasta que encuentre uno que marque false aparti de guardara en la nueva matriz el resto.
+// Usa el método 'dropWhile' de underscore-contrib para crear una nueva matriz 'resp'
+// eliminando elementos del arreglo 'g' mientras la función de callback 'callback' devuelva true.
+let resp = _.dropWhile(g, callback);
 
+// Imprime el arreglo original 'g'.
+console.log(`El array original: `, g);
 
-console.log(`El array orignal `, g);
-console.log(`La nueva matriz`, resp);
+// Imprime la nueva matriz 'resp' que contiene los elementos restantes después de la eliminación.
+console.log(`La nueva matriz: `, resp);
